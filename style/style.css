@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+
+.Display
+{
+    width: 100vw;
+    background-color: aqua;
+    height: 600px;
+}
+.nav_bar
+{
+    position:fixed;
+    width: 100vw;
+    height: 95px;
+    display: flex;
+    background-color: magenta;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.nav_bar span
+{
+    margin-top: 40px;
+}
+.logo
+{
+    flex: 3;
+}
+.links a
+{
+    text-decoration: none;
+
+}
+.links
+{
+    flex: 1;
+}
+.info_tab
+{
+
+    display: flex;
+}
+
+.info_block
+{
+   background: blue;
+   
+    margin: 100px 5px 0px 5px;
+    width:50vw;
+    height: 500px;
+    
+}
+/* Anout us Section starts here */
+.About_us{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    background-color: crimson;
+    margin: 0;
+    padding: 0;
+}
+
+.About_us img
+{
+    margin: auto;
+    width: 500px;
+    height: 400px;
+}
+.About_us span
+
+{   margin: auto;
+    width: 400px;
+    
+}
+
+.Hospital_info
+{
+    width: 100vw;
+    height: 600px;
+    background-color: darkgray;
+}
+.Clinic_info
+{
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(56, 13, 13);
+}
+.new_section
+{
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(121, 44, 44);
+}
+
