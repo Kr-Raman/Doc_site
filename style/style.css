@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-   font-family: 'Playfair Display', serif;
+   font-family:Arial, Helvetica, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
    width: 100%;
    height: 667px;
    
-  background-color: rgb(247,170,159)
+  
 }
 
 .heading
@@ -49,4 +49,74 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 100px;
    
+}
+.intro img{
+  width: 100%;
+  border-radius: 50%;
+}
+.intropara
+{
+  position: relative;
+  width: 80%;
+  line-height: 30px;
+  left: 30px;
+}
+
+.latest
+{
+  width: 100%;
+  height: 667px;
+}
+.sections
+{
+  width: 300px;
+  height: 100px;
+  box-shadow: 1px 1px 1px 2px rgb(158, 134, 134);
+  margin: auto;
+  margin-bottom: 10px;
+}
+.clinics
+{
+  width: 100%;
+  height: 1000px;
+}
+.locations
+{
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  transition: 0s;
+  
+}
+
+.footer
+{
+  background-image: linear-gradient(600deg,rgb(69, 79, 153),rgb(73, 75, 238),rgb(70,64,240));
+  width: 100%;
+  height: 300px;
+}
+.footercontact
+{
+  height: 300px;
+  color: white;
+  font-size: small;
+  margin-left: 20px;
+  padding: 20px;
+}
+.footercontact h1
+{
+  margin-bottom: 30px;
+}
+.footercontact p{
+  margin: 10px 0px 10px 0px;
+}
+.copyright
+{
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+
 }
