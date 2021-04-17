@@ -78,17 +78,46 @@ body::-webkit-scrollbar {
 .clinics
 {
   width: 100%;
-  height: 1000px;
+  height: fit-content;
 }
 .locations
 {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   margin: auto;
   margin-bottom: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   transition: 0s;
+
+}
+.locationpic
+{
   
+  width: 350px;
+  height: 200px;
+  background-image: url(/images/hand1.jpg);
+  background-size:cover ;
+  margin: auto;
+  border-radius: 20px;
+  
+
+}
+.locinfo
+{
+  width: 300px ;
+  height: 140px;
+  background-color: white;
+  position: relative;
+  /* display: flex; */
+ top: -20px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px ;
+}
+.locinfo p{
+  
+  padding: 1px;
+  margin-left: 10px;
 }
 
 .footer
@@ -118,5 +147,14 @@ body::-webkit-scrollbar {
   margin-top: 10px;
   text-align: center;
   color: rgb(0, 0, 0);
+
+}
+.shade
+{
+  color: white;
+  
+  width: fit-content;
+  transform: skewX(-10deg);
+  background-image: linear-gradient(30deg, rgb(69, 79, 153),rgb(73, 75, 238));
 
 }
